@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  min-width: 100%;
+}
+
+#load-form {
+  padding-top: 10px;
+}
+
+span {
+    padding: 10px;
+    border: 5px solid black;
+    color: green;
+    position: absolute;
+    font-size: 3em;
+    background: white;
+}
+
+
+-webkit-animation-duration: 1.5s;animation-duration: 1.5s;
+            -webkit-animation-fill-mode: both;animation-fill-mode: both;
+         }
+
+         @-webkit-keyframes span {
+            0% {opacity: 1;}
+            100% {opacity: 0;}
+         }
+
+         @keyframes span {
+            0% {opacity: 1;}
+            100% {opacity: 0;}
+         }
+
+         span {
+            -webkit-animation-name: fadeOut;
+            animation-name: fadeOut;
+         }
